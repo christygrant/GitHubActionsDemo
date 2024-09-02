@@ -6,3 +6,4 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello (Github Actions) World!"
+      - run: echo "This action was automatically triggered by a ${{ github.event_name }} event."
